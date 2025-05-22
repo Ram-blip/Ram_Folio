@@ -6,19 +6,19 @@ export const Projects = () => {
         title: 'Dual Presenter Live Streaming',
         desc: 'Real-time dual-stream live streaming application with presenter/participant roles using WebRTC and Mediasoup.',
         tech: ['React Js', 'WebRTC', 'Mediasoup', 'Node.js', 'Socket.io', 'Redux', 'Express Js'],
-        link: '#'
+        link: 'https://github.com/Ram-blip/Video_Conferencing'
       },
       {
-        title: 'Blog App',
+        title: 'BlogVerse',
         desc: 'Full-stack blog platform with user authentication, CRUD features, and rich text editing built on the MERN stack.',
         tech: ['MongoDB', 'Express', 'React', 'Node.js'],
-        link: '#'
+        link: 'https://github.com/Ram-blip/Blogverse'
       },
       {
         title: 'Optimized Test Suite Generator',
         desc: 'Implemented a comprehensive test suite optimization system for 7 benchmark programs using statement and branch coverage criteria combined with random, total and additional prioritization techniques.',
         tech: ['Python', 'C', 'Gcov', 'Docker', 'Git'],
-        link: '#'
+        link: 'https://github.com/ucr-cs206/cs206-project-mutants'
       },
       {
         title: 'Chicago Crime Analysis',
@@ -30,19 +30,19 @@ export const Projects = () => {
         title: 'E-Scooter & Student Detection',
         desc: 'Real-time object detection system for monitoring e-scooters and students using YOLOv8 and Roboflow.',
         tech: ['YOLOv8', 'Roboflow', 'Python'],
-        link: '#'
+        link: 'https://github.com/Ram-blip/Scooter-Student-Detection'
       },
       {
         title: 'Hydrochemical Analysis',
         desc: 'Developed a cross-platform desktop app with React and Electron.js for interactive hydrochemical data visualization and analysis.',
         tech: ['Python', 'Pandas', 'Matplotlib', 'React Js', 'Electron.js', 'Node.js', 'Express Js','HTML/CSS'],
-        link: '#'
+        link: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4367090'
       },
       {
         title: 'Pac-Man Project',
         desc: 'Implemented foundational AI algorithms - BFS, DFS, A*, and Uniform Cost Search - to navigate Pacman through mazes, reach destinations, and consume all available food items',
         tech: ['Python', 'Algorithms', 'AI'],
-        link: '#'
+        link: 'https://github.com/Ram-blip/Pacman-AI'
       },
     ];
   
@@ -50,7 +50,7 @@ export const Projects = () => {
       <section id="projects" className="min-h-screen flex items-center justify-center py-20">
         <RevealOnScroll>
         <div className="max-w-5xl mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
+          <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-emerald-400 to-emerald-200 bg-clip-text text-transparent text-center">
             Featured Projects
           </h2>
   
@@ -66,7 +66,7 @@ export const Projects = () => {
                   {proj.tech.map((tech) => (
                     <span
                       key={tech}
-                      className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm transition hover:bg-blue-500/20 hover:-translate-y-0.5 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)]"
+                      className="bg-blue-500/10 text-emerald-400 py-1 px-3 rounded-full text-sm transition hover:bg-blue-500/20 hover:-translate-y-0.5 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)]"
                     >
                       {tech}
                     </span>
@@ -75,7 +75,7 @@ export const Projects = () => {
                 <div className="flex justify-between items-center">
                   <a
                     href={proj.link}
-                    className="text-blue-400 hover:text-blue-300 transition-colors"
+                    className="text-neutral-400 hover:text-blue-300 transition-colors"
                   >
                     View Project →
                   </a>
