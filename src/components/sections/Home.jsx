@@ -1,6 +1,7 @@
 // src/components/sections/Home.jsx
 import { RevealOnScroll } from "../RevealOnScroll";
-import ProfilePic from "../assets/profile.jpg";
+import Profile from "../../images/profile.jpg";
+
 
 export const Home = () => {
   return (
@@ -46,7 +47,7 @@ export const Home = () => {
           {/* ——— Image Block ——— */}
           <div className="w-full md:w-1/2 flex justify-center">
             <img
-              src={ProfilePic}
+              src={Profile}
               alt="Ramsundar"
               className="w-44 h-44 md:w-56 md:h-56 rounded-full object-cover border-4 border-gray-500 shadow-xl transition-transform hover:scale-105"
             />
