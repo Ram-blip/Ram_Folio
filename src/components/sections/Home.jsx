@@ -1,6 +1,6 @@
 // src/components/sections/Home.jsx
 import { RevealOnScroll } from "../RevealOnScroll";
-import ProfilePic from "../../assets/profile.jpg";
+import ProfilePic from "../assets/profile.jpg";
 
 export const Home = () => {
   return (
